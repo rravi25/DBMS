@@ -1,0 +1,105 @@
+body{
+    background-color: #8952d1;
+    margin: 0;
+}
+.contents{
+    height:640px;
+}
+h1{
+    display: inline-block;
+    margin: 0;
+}
+.head0{
+    left: 20px;
+    top:20px;
+    position: relative;
+    font-family: 'Dangrek', cursive;
+    width: 97%;
+    color: ivory;
+    font-size: 14vh;
+    font-weight: bold;
+    line-height: 12vh;
+    display: flex;
+    margin: 0;
+}
+p{
+    display: inline-block;
+}
+a{  
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+#found{
+    position: absolute;
+    width: 421px;
+    height: 456px;
+    left: 1079px;
+    top: 181px;
+}
+.info{
+    left: 20px;
+    color: ivory;
+    font-family: 'Roboto', sans-serif;
+    font-size:3vh;
+    width:30%;
+    position: absolute;
+}
+.head{
+    width: 100%;
+}
+.image{
+    left: 540px;    
+    position: relative;
+    width: fit-content;
+    height:fit-content;
+}
+.img{
+    height: 380px;
+    width: 400px;
+}
+.info{
+    top:200px;
+}
+.btn{
+    position:relative;
+    height: 40px;
+    width: 150px;
+    background-color: rgb(66, 243, 66);
+    color: black;
+    font-weight: bolder;
+    font-size: large;
+    border-radius: 10px;
+    border: none;
+    left: 1000px;
+    top:45px;
+}
+.btn:hover{
+    background-color: rgb(22, 219, 22);
+}
+a:hover{
+    color: white;
+}
+@media only screen and (max-width: 480px) {
+    body{
+    background-color: #8952d1;
+    }
+    h1{
+        display: inline-block;
+        margin: 0;
+    }
+    pre{
+        position: relative;
+        font-family: 'Dangrek', cursive;
+        color: ivory;
+        font-size: 5vh;
+        font-weight: bold;
+        line-height: 6vh;
+        display: inline-block;
+    } 
+    p{
+        display: inline-block;
+        font-size: 2px;
+    }
+    
+}
+
