@@ -22,7 +22,7 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="homestyle.css" />
+    <link rel="stylesheet" href="./CSS/homestyle.css" />
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css?family=Tangerine"
@@ -78,17 +78,16 @@
             <a class="nav-link" href="#">Home</a>
           </li>
           <li class="nav-item grow">
-            <a class="nav-link" href="forms/lostForm.html">Lost</a>
+            <a class="nav-link" href="./forms/lostForm.css">Lost</a>
           </li>
           <li class="nav-item grow">
-            <a class="nav-link" href="forms/foundForm.html">Found</a>
+            <a class="nav-link" href="./forms/foundForm.php">Found</a>
           </li>
           <li class="nav-item grow">
-            <a class="nav-link" href="about_us.html">About Us</a>
+            <a class="nav-link" href="./about_us.php">About Us</a>
           </li>
-
           <li class="nav-item grow">
-            <a class="nav-link" href="forms/contactus.html">Contact Us</a>
+            <a class="nav-link" href="./forms/contactus.php">Contact Us</a>
           </li>
         </ul>
 
@@ -119,7 +118,7 @@
             Or if you've lost something just chill! People here are damnnn cool!
           </p>
           <div class="shrink">
-            <a class="learn-more" href="forms/register.html">Register Now</a>
+            <a class="learn-more" href="./register.php">Register Now</a>
           </div>
         </div>
 

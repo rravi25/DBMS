@@ -7,18 +7,18 @@
       src="https://kit.fontawesome.com/64d58efce2.js"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./CSS/SignUpstyle.css" />
     <title>Sign in & Sign up Form</title>
   </head>
   <body>
     <div class="container">
       <div class="forms-container">
         <div class="signin-signup">
-          <form action="#" class="sign-in-form">
+          <form action="./home.php" class="sign-in-form">
             <h2 class="title">Sign in</h2>
             <div class="input-field">
               <i class="fas fa-user"></i>
-              <input type="text" placeholder="Username" />
+              <input type="text" placeholder="Email" />
             </div>
             <div class="input-field">
               <i class="fas fa-lock"></i>
@@ -41,11 +41,11 @@
               </a>
             </div>
           </form>
-          <form action="#" class="sign-up-form">
+          <form action="./home.php" class="sign-up-form">
             <h2 class="title">Sign up</h2>
             <div class="input-field">
               <i class="fas fa-user"></i>
-              <input type="text" placeholder="Username" />
+              <input type="text" placeholder="Full Name" />
             </div>
             <div class="input-field">
               <i class="fas fa-envelope"></i>
@@ -54,6 +54,10 @@
             <div class="input-field">
               <i class="fas fa-lock"></i>
               <input type="password" placeholder="Password" />
+            </div>
+            <div class="input-field">
+              <i class="fas fa-lock"></i>
+              <input type="password" placeholder="Confirm Password" />
             </div>
             <input type="submit" class="btn" value="Sign up" />
             <p class="social-text">Or Sign up with social platforms</p>
@@ -80,31 +84,29 @@
           <div class="content">
             <h3>New here ?</h3>
             <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis,
-              ex ratione. Aliquid!
+             Be a part of the community !! Be a HERO !!!                  
             </p>
             <button class="btn transparent" id="sign-up-btn">
               Sign up
             </button>
           </div>
-          <img src="img/log.svg" class="image" alt="" />
+          <img src="./images/5498791-removebg-preview.png" class="image img1" alt="community" />
         </div>
         <div class="panel right-panel">
           <div class="content">
             <h3>One of us ?</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-              laboriosam ad deleniti.
+             Hey
             </p>
             <button class="btn transparent" id="sign-in-btn">
               Sign in
             </button>
           </div>
-          <img src="img/register.svg" class="image" alt="" />
+          <img src="./images/2111.w037.n003.19A.p1.19-removebg-preview.png" class="image img2" alt="back" />
         </div>
       </div>
     </div>
 
-    <script src="app.js"></script>
+    <script src="./JS/app.js"></script>
   </body>
 </html>
