@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;1,100;1,200;1,300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar {
+    background: #030027;
+    padding: 1rem 8rem;
+    z-index: 1000;
+}
+
+.navbar .navbar-brand {
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: 'Monoton', cursive;
+}
+h1{
+    position: relative;
+    top:-300px;
+
+}
+.input-group{
+    color:black;
+    font-weight: bold;
+}
+.navbar .navbar-brand:hover {
+    color: #caac00;
+}
+
+ul li {
+    margin: 0px 10px;
+}
+
+#navbarSupportedContent>ul>li:nth-child(n)>a {
+    color: #fff;
+    font-size: 1.1rem;
+    padding: 0 0.8rem;
+    cursor: pointer;
+}
+
+#navbarSupportedContent>ul>li:nth-child(n)>a:hover {
+    color: #caac00;
+}
+
+
+.signin {
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.signin:hover {
+    color: #caac00;
+}
+.grow {
+    transition: all 0.3s;
+}
+
+.grow:hover {
+    transform: scale(1.2);
+}
+button{
+        width:400px;
+}
+#navbarSupportedContent>button:hover {
+    background: rgb(22, 138, 113);
+}
+#form-container {
+    height: 32em;   
+    left:-550px;
+    position: relative;
+    top:-310px;
+    max-width: 900px;
+    width: 90%;
+    background: rgba(241, 237, 237, 0.45);
+    border: 1px solid rgba(91, 92, 91, 0.25);
+    box-shadow: 0px 0px 10px 5px rgba(95, 91, 91, 0.582);
+    backdrop-filter: blur(7.5px);
+        border-radius: 30px;
+}
+.img1 {
+    max-width: 100%;
+    width: 200px;
+    height: auto;
+}
+.img-fluid{
+    position: relative;
+    bottom:300px;
+    border-radius:40px;
+    left:600px;
+}
+footer small {
+    word-spacing: 1px;
+    font-size: 1.2rem;
+    color: rgb(0, 0, 0);
+    margin-left: 10em;
+    cursor: pointer;
+}
+
+small span:hover {
+    color: white;
+}
+
+.brand a {
+    font-family: 'Monoton', cursive;
+    color: rgba(255, 255, 255, 0.582);
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.brand a:hover {
+    color: white;
+}
+
+#sticky-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
