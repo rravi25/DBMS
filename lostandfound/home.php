@@ -76,13 +76,13 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mx-auto">
           <li class="nav-item grow">
-            <a class="nav-link" href="#">Home</a>
+            <a class="nav-link" href="#">HOME</a>
           </li>
           <li class="nav-item grow">
-            <a class="nav-link" href="./forms/lostForm.php">Lost</a>
+            <a class="nav-link" href="./forms/lostForm.php">LOST</a>
           </li>
           <li class="nav-item grow">
-            <a class="nav-link" href="./forms/foundForm.php">Found</a>
+            <a class="nav-link" href="./forms/foundForm.php">FOUND</a>
           </li>
           <li class="nav-item grow">
             <a class="nav-link" href="./about_us.php">About Us</a>
